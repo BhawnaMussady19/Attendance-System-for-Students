@@ -1,0 +1,67 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+
+  .grid-cell.curr-month-cell.today.month_single_day_view .date-view {
+    background: #fff;
+    color: #46de52 !important;
+    padding: 5px;
+    border-radius: 50%;
+  }
+  .grid-row {
+    border-left: none;
+    border-bottom: none;
+  }
+  .grid-cell {
+    border-right: none;
+  }
+  .week-heading .grid-cell,
+  .month-heading .grid-cell,
+  .day-heading .grid-cell {
+    border-right: none;
+    background: none;
+    min-height: 35px;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #46c0de;
+  }
+
+  .dialog {
+    max-width: 20rem;
+    display: block;
+    padding: 2rem;
+    border: 0;
+    top: 43%;
+    border-radius: 0.5rem;
+    box-shadow: hsl(0 0% 0% / 10%) 0 0 0.5rem 0.25rem;
+    position: absolute;
+  }
+  
+  .dialog::backdrop {
+    background: hsl(0 0% 0% / 50%);
+  }
+  
+  .dialog-close-btn {
+    font-size: .75em;
+    position: absolute;
+    top: .25em;
+    right: .25em;
+  }
+  
+  .react-datepicker {
+    width: 100%;
+  }
+
+  .react-datepicker__month-container {
+    width: 100%;
+  }
+  .react-datepicker__week {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .react-datepicker__day-names {
+    display: flex;
+    justify-content: space-between;
+  }
